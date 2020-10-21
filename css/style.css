@@ -1,0 +1,226 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    padding: 49px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-content: center;
+}
+.soc {
+    list-style-type: none;
+    display: flex;
+}
+.soc li {
+    margin-right: 30px;
+}
+.soc li:last-child {
+    margin-right: 0;
+}
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+}
+.nav-menu li {
+    margin-right: 54px;
+}
+.nav-menu li a {
+    color: #2B3541;
+}
+.photo {
+    background: url(../files/@2x/Image\ 1\ screen@2x.png);
+    height: 852px;
+    background-position-x: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu {
+    position: absolute;
+    left: 334px;
+    width: 1325px;
+}
+.photo h1 {
+    text-transform: uppercase;
+    color: #2B3541;
+    width: 676px;
+    font-size: 48px;
+    padding-top: 226px;
+    margin: 0;
+}
+.photo p {
+    font-size: 40px;
+    padding-top: 62px;
+    margin: 0;
+}
+.photo p span {
+    margin-left: 20px;
+    padding: 0;
+}
+.photo .inform {
+    color: #2B3541;
+    font-size: 18px;
+    width: 297px;
+    line-height: 28px;
+    padding-top: 26px;
+    padding-left: 90px;
+}
+.click {
+    background: #FBF138;
+    color: #2B3541;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px 30px;
+    margin-top: 40px;
+    margin-left: 90px;
+    font-size: 19px;
+    font-weight: 700;
+}
+.photo a {
+    display: block;
+    margin-top: 170px;
+    margin-left: 90px;
+}
+.contain {
+    width:100%;
+    max-width:1143px;
+    margin:0 auto;
+    display: flex;
+    margin-top: 900px;
+    height: 690px;
+}
+/*.subject {
+    width: 700px;
+    height: 600px;
+    background: url(../img/Image.png);
+    background-repeat: no-repeat;
+}*/
+.events {
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #2B3541;
+}
+.nav-maraphon {
+    width: 700px;
+    height: 600px;
+    background: url(../img/Image.png);
+    background-repeat: no-repeat;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav-maraphon li {
+    text-decoration: none;
+    color: #2B3541;
+}
+.date {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.maraphon {
+    padding-top: 5px;
+    padding-left: 30px;
+    line-height: 125%;
+    font-size: 28px;
+}
+.button-maraphon {
+    text-decoration: none;
+    background: #FBF138;
+    color: #2B3541;
+    border: none;
+    padding: 13px 20px;
+    font-size: 18px;
+}
+.nav-maraphon a {
+    display: block;
+    max-width: 86px;
+    margin-top: 386px;
+    margin-left: 241px;
+}
+.nav-coach {
+    background: url('../img/sportsmen.png');
+    width: 366px;
+    height: 600px;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: -312px;
+    margin-right: 20px;
+}
+.nav-coach li {
+    text-decoration: none;
+    color: #2B3541;
+}
+.times {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.coach {
+    padding-top: 6px;
+    padding-left: 30px;
+    font-size: 28px;
+    line-height: 125%
+}
+.button-webinar {
+    text-decoration: none;
+    background: #FBF138;
+    color: #2B3541;
+    border: none;
+    font-size: 18px;
+    padding: 13px 20px;
+}
+.nav-coach a {
+    display: block;
+    max-width: 86px;
+    margin-top: 387px;
+    margin-left: 239px;
+}
+.contain-main {
+    display: flex;
+}
+.yoga {
+    background: url('../img/woman.png');
+    width: 366px;
+    height: 600px;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    padding-left: 0;
+}
+.yoga li {
+    text-decoration: none;
+    color: #2B3541;
+}
+.times-yoga {
+    padding-top: 30px;
+    padding-left: 31px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.yoga-style {
+    font-size: 28px;
+    line-height: 125%;
+    color: #2B3541;
+    padding-left: 30px;
+}
+.button-yoga {
+    text-decoration: none;
+    background: #FBF138;
+    color: #2B3541;
+    border: none;
+    font-size: 18px;
+    padding: 13px 20px;
+}
+.yoga a {
+    display: block;
+    max-width: 86px;
+    margin-top: 393px;
+    margin-left: 240px;
+}
